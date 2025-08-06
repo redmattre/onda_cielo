@@ -10,10 +10,31 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 69.0, 97.0, 1070.0, 747.0 ],
+		"rect" : [ 72.0, 97.0, 1025.0, 747.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"allowdrag" : 0,
+					"buffername" : "spatialDecay",
+					"id" : "obj-65",
+					"labels" : 0,
+					"maxclass" : "waveform~",
+					"norulerclick" : 0,
+					"numinlets" : 5,
+					"numoutlets" : 6,
+					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
+					"patching_rect" : [ 1189.0, 943.0, 256.0, 64.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 729.0, 384.0, 256.0, 64.0 ],
+					"ruler" : 0,
+					"selectioncolor" : [ 0.92156862745098, 0.709803921568627, 0.329411764705882, 0.0 ],
+					"voffset" : 1.0,
+					"vzoom" : 24.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "newobj",
@@ -682,6 +703,7 @@
 								"filename" : "Eva_69.wav",
 								"filekind" : "audiofile",
 								"id" : "u170008586",
+								"selection" : [ 0.178947368421053, 0.305263157894737 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1206,7 +1228,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 390.881720430107521, 7.255813953488371, 0, 0.55, 946.368231046931442, 39.157894736842103, 0, -0.45, 1024.0, 47.99999999999978, 0, 0.6 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 166.353790613718417, 6.947368421052632, 0, 0.55, 905.703971119133598, 31.894736842105264, 0, -0.45, 1024.0, 47.99999999999978, 0, -0.3 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -2317,7 +2339,7 @@
 
 			}
  ],
-		"originid" : "pat-30616",
+		"originid" : "pat-168828",
 		"parameters" : 		{
 			"obj-13::obj-53" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-13::obj-62" : [ "live.text", "live.text", 0 ],
@@ -2382,7 +2404,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "onda_speakerCalc_engine.maxpat",
+				"name" : "onda_speakerCalc_engine_2.maxpat",
 				"bootpath" : "~/Desktop/Temporaneo/onda_rebuild/onda_rebuild",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
