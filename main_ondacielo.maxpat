@@ -10,10 +10,77 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 72.0, 97.0, 1025.0, 747.0 ],
+		"rect" : [ 69.0, 97.0, 1027.0, 747.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 674.0, 1290.0, 97.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 198.5, 864.0, 97.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-101",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 601.0, 1255.0, 40.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 227.0, 832.0, 40.0, 20.0 ],
+					"text" : "saw"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 572.0, 1253.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 198.0, 830.0, 24.0, 24.0 ],
+					"svg" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 642.0, 1319.0, 39.0, 22.0 ],
+					"text" : "gate~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 674.0, 1224.0, 60.0, 22.0 ],
+					"text" : "saw~ 120"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"allowdrag" : 0,
 					"buffername" : "spatialDecay",
@@ -703,7 +770,7 @@
 								"filename" : "Eva_69.wav",
 								"filekind" : "audiofile",
 								"id" : "u170008586",
-								"selection" : [ 0.178947368421053, 0.305263157894737 ],
+								"selection" : [ 0.747368421052632, 0.926315789473684 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1228,7 +1295,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 166.353790613718417, 6.947368421052632, 0, 0.55, 905.703971119133598, 31.894736842105264, 0, -0.45, 1024.0, 47.99999999999978, 0, -0.3 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 203.32129963898916, 6.947368421052632, 0, 0.55, 853.949458483754483, 37.89473684210526, 0, -0.455, 1012.909747292418729, 48.0, 0, -0.7 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -1984,6 +2051,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-80", 1 ],
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -2249,6 +2323,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-74", 0 ]
 				}
@@ -2279,6 +2360,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-80", 0 ]
 				}
 
 			}
@@ -2338,8 +2426,15 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-99", 0 ]
+				}
+
+			}
  ],
-		"originid" : "pat-168828",
+		"originid" : "pat-224634",
 		"parameters" : 		{
 			"obj-13::obj-53" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-13::obj-62" : [ "live.text", "live.text", 0 ],
