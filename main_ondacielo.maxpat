@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 73.0, 97.0, 1066.0, 747.0 ],
+		"rect" : [ 72.0, 98.0, 1023.0, 747.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -258,8 +258,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 354.0, 1088.0, 94.0, 22.0 ],
-					"text" : "mcs.matrix~ 4 4"
+					"patching_rect" : [ 354.0, 1088.0, 107.0, 22.0 ],
+					"text" : "mcs.matrix~ 24 24"
 				}
 
 			}
@@ -555,7 +555,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.125, 0.125, 0.125, 0.0 ],
-					"hidden" : 1,
 					"id" : "obj-125",
 					"ignoreclick" : 1,
 					"maxclass" : "multislider",
@@ -568,7 +567,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 730.0, 522.0, 276.0, 125.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 15,
+					"size" : 2,
 					"slidercolor" : [ 0.882352941176471, 0.243137254901961, 0.149019607843137, 1.0 ]
 				}
 
@@ -1158,7 +1157,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-6148"
+						"originid" : "pat-29741"
 					}
 ,
 					"patching_rect" : [ 1407.0, 1185.0, 150.0, 22.0 ],
@@ -2884,8 +2883,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 354.0, 967.0, 249.0, 22.0 ],
-					"text" : "mcs.poly~ onda_main_engine 24 @parallel 0",
+					"patching_rect" : [ 354.0, 967.0, 225.0, 22.0 ],
+					"text" : "mcs.poly~ onda_main_engine_debug 24",
 					"varname" : "poly~_AA"
 				}
 
@@ -3188,13 +3187,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 1 ],
 					"source" : [ "obj-100", 0 ]
@@ -3988,7 +3980,7 @@
 
 			}
  ],
-		"originid" : "pat-6146",
+		"originid" : "pat-29739",
 		"parameters" : 		{
 			"obj-112" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-13::obj-53" : [ "live.numbox", "live.numbox", 0 ],
@@ -4084,7 +4076,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "onda_main_engine.maxpat",
+				"name" : "onda_main_engine_debug.maxpat",
 				"bootpath" : "~/Desktop/Temporaneo/onda_rebuild/onda_rebuild",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

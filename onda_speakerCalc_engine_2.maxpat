@@ -10,16 +10,32 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 73.0, 129.0, 1023.0, 667.0 ],
+		"rect" : [ 331.0, 117.0, 1023.0, 667.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 322.0, 600.0, 56.0, 22.0 ],
+					"sig" : 0.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-76",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1011.0, 96.0, 150.0, 20.0 ],
-					"text" : "prospettiva: da fare"
+					"text" : "prospettiva: fuori"
 				}
 
 			}
@@ -31,7 +47,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 953.0, 95.0, 50.0, 22.0 ],
-					"text" : "100."
+					"text" : "0."
 				}
 
 			}
@@ -620,7 +636,7 @@
 
 							}
  ],
-						"originid" : "pat-6142"
+						"originid" : "pat-29993"
 					}
 ,
 					"patching_rect" : [ 1304.0, 76.0, 71.0, 22.0 ],
@@ -688,7 +704,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 184.0, 403.0, 61.0, 22.0 ],
-					"text" : "0.118285"
+					"text" : "0.07362"
 				}
 
 			}
@@ -1148,7 +1164,7 @@
 
 							}
  ],
-						"originid" : "pat-6144"
+						"originid" : "pat-29995"
 					}
 ,
 					"patching_rect" : [ 57.0, 184.0, 75.0, 22.0 ],
@@ -1439,7 +1455,7 @@
 
 							}
  ],
-						"originid" : "pat-6146"
+						"originid" : "pat-29765"
 					}
 ,
 					"patching_rect" : [ 57.0, 600.0, 36.0, 22.0 ],
@@ -1678,7 +1694,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 191.0, 477.0, 30.0, 49.0 ],
-									"text" : "0.72111"
+									"text" : "2.661766"
 								}
 
 							}
@@ -1881,7 +1897,7 @@
 
 											}
  ],
-										"originid" : "pat-6150"
+										"originid" : "pat-29999"
 									}
 ,
 									"patching_rect" : [ 150.0, 187.0, 56.0, 22.0 ],
@@ -2034,7 +2050,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 187.0, 59.0, 35.0 ],
-									"text" : "-2.1 -1.9 1.2"
+									"text" : "2. -2.35 1.2"
 								}
 
 							}
@@ -2346,7 +2362,7 @@
 
 							}
  ],
-						"originid" : "pat-6148"
+						"originid" : "pat-29997"
 					}
 ,
 					"patching_rect" : [ 648.0, 95.0, 105.0, 22.0 ],
@@ -2583,7 +2599,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
+					"source" : [ "obj-148", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-62", 1 ],
+					"order" : 1,
 					"source" : [ "obj-148", 0 ]
 				}
 
@@ -3069,7 +3094,7 @@
 
 			}
  ],
-		"originid" : "pat-6140"
+		"originid" : "pat-29991"
 	}
 
 }
