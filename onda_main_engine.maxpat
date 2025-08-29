@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 212.0, 162.0, 884.0, 625.0 ],
+		"rect" : [ 869.0, 307.0, 884.0, 605.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -79,6 +79,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 632.0, 1000.0, 126.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "mc.out~ 1 @chans 24"
 				}
 
@@ -957,7 +961,7 @@
 
 							}
  ],
-						"originid" : "pat-30645"
+						"originid" : "pat-6142"
 					}
 ,
 					"patching_rect" : [ 361.0, 168.0, 44.0, 22.0 ],
@@ -1074,10 +1078,10 @@
 										"maxclass" : "newobj",
 										"text" : "pow 2",
 										"patching_rect" : [ 242.0, 212.0, 41.0, 22.0 ],
-										"numoutlets" : 1,
-										"outlettype" : [ "" ],
+										"numinlets" : 1,
 										"id" : "obj-5",
-										"numinlets" : 1
+										"numoutlets" : 1,
+										"outlettype" : [ "" ]
 									}
 
 								}
@@ -1086,10 +1090,10 @@
 										"maxclass" : "newobj",
 										"text" : "in 1",
 										"patching_rect" : [ 50.0, 14.0, 28.0, 22.0 ],
-										"numoutlets" : 1,
-										"outlettype" : [ "" ],
+										"numinlets" : 0,
 										"id" : "obj-1",
-										"numinlets" : 0
+										"numoutlets" : 1,
+										"outlettype" : [ "" ]
 									}
 
 								}
@@ -1098,29 +1102,29 @@
 										"maxclass" : "newobj",
 										"text" : "out 1",
 										"patching_rect" : [ 176.0, 418.0, 35.0, 22.0 ],
-										"numoutlets" : 0,
+										"numinlets" : 1,
 										"id" : "obj-4",
-										"numinlets" : 1
+										"numoutlets" : 0
 									}
 
 								}
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-5", 0 ],
-										"destination" : [ "obj-4", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
 										"source" : [ "obj-1", 0 ],
 										"destination" : [ "obj-5", 0 ]
 									}
 
 								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-5", 0 ],
+										"destination" : [ "obj-4", 0 ]
+									}
+
+								}
  ],
-							"originid" : "pat-30647"
+							"originid" : "pat-6144"
 						}
 
 					}
@@ -1132,7 +1136,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 910.0, 583.0, 119.0, 22.0 ],
 					"text" : "mc.gen~ @chans 24",
-					"wrapper_uniquekey" : "u868034278"
+					"wrapper_uniquekey" : "u226022919"
 				}
 
 			}
@@ -1178,7 +1182,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 62.0, 1852.0, 984.0 ],
+						"rect" : [ 75.0, 97.0, 1021.0, 747.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1395,7 +1399,7 @@
 
 							}
  ],
-						"originid" : "pat-30649"
+						"originid" : "pat-6146"
 					}
 ,
 					"patching_rect" : [ 70.0, 261.0, 74.0, 22.0 ],
@@ -1482,12 +1486,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 346.0, 91.0, 22.0 ],
-					"text" : "-0.9 -1.2 1.2"
+					"patching_rect" : [ 192.0, 346.0, 91.0, 35.0 ],
+					"text" : "-0.632 -1.512 1.2"
 				}
 
 			}
@@ -1593,7 +1598,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 532.0, 358.0, 120.0, 22.0 ],
-					"text" : "0.6 0. 1.2"
+					"text" : "0.75 0. 1.2"
 				}
 
 			}
@@ -1971,7 +1976,7 @@
 
 							}
  ],
-						"originid" : "pat-30893"
+						"originid" : "pat-6390"
 					}
 ,
 					"patching_rect" : [ 653.0, 28.0, 111.0, 22.0 ],
@@ -2277,7 +2282,7 @@
 
 							}
  ],
-						"originid" : "pat-30895"
+						"originid" : "pat-6392"
 					}
 ,
 					"patching_rect" : [ 653.0, 72.0, 97.0, 22.0 ],
@@ -2907,7 +2912,7 @@
 
 							}
  ],
-						"originid" : "pat-30897"
+						"originid" : "pat-6394"
 					}
 ,
 					"patching_rect" : [ 192.0, 72.0, 71.0, 22.0 ],
@@ -2964,6 +2969,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 1040.400000000000091, 72.0, 54.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "mc.in~ 1"
 				}
 
@@ -3637,7 +3646,7 @@
 
 			}
  ],
-		"originid" : "pat-30643"
+		"originid" : "pat-6140"
 	}
 
 }

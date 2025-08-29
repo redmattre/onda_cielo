@@ -10,10 +10,21 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 76.0, 97.0, 1138.0, 747.0 ],
+		"rect" : [ 75.0, 110.0, 1021.0, 734.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-173",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 626.0, 58.0, 51.0, 22.0 ],
+					"text" : "receiver"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 0.0 ],
@@ -1272,7 +1283,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 730.0, 522.0, 276.0, 125.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 4,
+					"size" : 2,
 					"slidercolor" : [ 0.882352941176471, 0.243137254901961, 0.149019607843137, 1.0 ]
 				}
 
@@ -1862,7 +1873,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-8"
+						"originid" : "pat-24473"
 					}
 ,
 					"patching_rect" : [ 1407.0, 1185.0, 150.0, 22.0 ],
@@ -2009,7 +2020,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2086.0, 1024.0, 128.0, 128.0 ],
+					"patching_rect" : [ 2083.0, 1034.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 721.0, 53.0, 293.0, 273.0 ],
 					"viewvisibility" : 1
@@ -2139,17 +2150,6 @@
 					"selectioncolor" : [ 0.92156862745098, 0.709803921568627, 0.329411764705882, 0.0 ],
 					"voffset" : 1.0,
 					"vzoom" : 24.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-71",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 613.0, 58.0, 51.0, 22.0 ],
-					"text" : "receiver"
 				}
 
 			}
@@ -3546,8 +3546,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 539.0, 924.0, 52.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 763.0, 52.0, 22.0 ],
-					"text" : "open 21"
+					"presentation_rect" : [ 272.0, 763.0, 45.0, 22.0 ],
+					"text" : "open 2"
 				}
 
 			}
@@ -4904,12 +4904,10 @@
 
 			}
  ],
-		"originid" : "pat-6",
+		"originid" : "pat-24467",
 		"parameters" : 		{
 			"obj-112" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-135" : [ "live.text[5]", "live.text[2]", 0 ],
-			"obj-13::obj-53" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-13::obj-62" : [ "live.text", "live.text", 0 ],
 			"obj-143" : [ "live.text[3]", "live.text[2]", 0 ],
 			"obj-148" : [ "live.text[4]", "live.text[2]", 0 ],
 			"obj-170" : [ "live.text[8]", "live.text[2]", 0 ],
@@ -5025,6 +5023,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "sadam.udpReceiver.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "sourceInfo.txt",
