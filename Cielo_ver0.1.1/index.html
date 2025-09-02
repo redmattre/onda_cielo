@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cielo</title>
-    <script type="module" crossorigin src="/assets/index-C9OGLXeW.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D9GmlqE2.css">
+    <script type="module" crossorigin src="/assets/index-DTK4BgW3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-HIU7tAHe.css">
   </head>
   <body>
 
@@ -17,16 +17,17 @@
 
     <div class="dockTasti">
       <div class="dockTastiHighlight hide" id="dockTastiHighlight"></div>
-      <button title="sposta (g); (esc) per uscire" id="moveButton" class="topButtons">&#10021;</button>
-      <button title="ruota (r); (esc) per uscire" id="rotateButton" class="topButtons">R</button>
-      <button title="scala (s); (esc) per uscire" id="scaleButton" class="topButtons">S</button>
-      <button title="chiudi trasformazione" id="toggleTransButton" class="topButtons">⏚</button>
+      <button title="sposta (g); (esc) per uscire" id="moveButton" class="topButtons" style="display: none;">&#10021;</button>
+      <button title="ruota (r); (esc) per uscire" id="rotateButton" class="topButtons" style="display: none;">R</button>
+      <button title="scala (s); (esc) per uscire" id="scaleButton" class="topButtons" style="display: none;">S</button>
+      <button title="chiudi trasformazione" id="toggleTransButton" class="topButtons" style="display: none;">⏚</button>
       <button title="aggiungi aureola" id="addHalo">❍</button>
       <button id="addCloudElement" style="display: none;">☁</button>
       <button title="aggiungi altoparlante" id="addCone">⊚</button>
       <button id="addZone">⛶</button>
       <button title="aggiungi orifonte" id="addArrow">➞</button>
       <button title="aggiungi omnifonte" id="addSphere">⬤</button>
+      <button title="toggle cursore POV" id="addPovCursor">pov</button>
       <button title="menu di oggetti nella scena" id="seeItemsList">▤</button>
     </div>
     
@@ -82,19 +83,19 @@
           </div>
           <!-- Bottoni import preset -->
           <div class="input-wrapper">
-            <button id="loadSpeakersPresetBtn" class="menuButton">Carica Setup Altoparlanti</button>
+            <button id="loadSpeakersPresetBtn" class="menuButton">Load Speakers</button>
           </div>
           <div class="input-wrapper">
-            <button id="saveSpeakersPresetBtn" class="menuButton">Salva Setup Altoparlanti</button>
+            <button id="saveSpeakersPresetBtn" class="menuButton">Save Speakers</button>
           </div>
           <div class="input-wrapper">
-            <button id="loadSourcesPresetBtn" class="menuButton">Carica Setup Fonti Sonore</button>
+            <button id="loadSourcesPresetBtn" class="menuButton">Load Sources</button>
           </div>
           <div class="input-wrapper">
-            <button id="saveSourcesPresetBtn" class="menuButton">Salva Setup Fonti Sonore</button>
+            <button id="saveSourcesPresetBtn" class="menuButton">Save Sources</button>
           </div>
           <div class="input-wrapper">
-            <button id="resetSceneBtn" class="menuButton">Init (Reset Scene)</button>
+            <button id="resetSceneBtn" class="menuButton">Empty</button>
           </div>
         </div>
 

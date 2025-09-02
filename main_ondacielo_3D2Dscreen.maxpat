@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 612.0, 133.0, 976.0, 721.0 ],
+		"rect" : [ 120.0, 123.0, 976.0, 721.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -278,7 +278,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 514.0, 63.0, 147.0, 22.0 ],
-					"text" : "read http://localhost:8000/"
+					"text" : "read http://localhost:7776/"
 				}
 
 			}
@@ -771,7 +771,7 @@
 					"patching_rect" : [ 935.0, 1023.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 635.0, 621.0, 58.0, 29.0 ],
-					"text" : "1.72",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -798,7 +798,7 @@
 					"patching_rect" : [ 867.0, 1023.0, 68.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 555.0, 621.0, 55.0, 29.0 ],
-					"text" : "343.1",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -847,7 +847,7 @@
 					"patching_rect" : [ 753.0, 1023.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1110.0, 621.0, 52.0, 29.0 ],
-					"text" : "1.85",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -874,7 +874,7 @@
 					"patching_rect" : [ 683.0, 1023.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1025.0, 621.0, 52.0, 29.0 ],
-					"text" : "1.65",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -901,7 +901,7 @@
 					"patching_rect" : [ 613.0, 1054.0, 68.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 944.0, 621.0, 55.0, 29.0 ],
-					"text" : "0.5",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -928,7 +928,7 @@
 					"patching_rect" : [ 753.0, 1054.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 621.0, 52.0, 29.0 ],
-					"text" : "1.85",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -955,7 +955,7 @@
 					"patching_rect" : [ 683.0, 1054.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 335.0, 621.0, 52.0, 29.0 ],
-					"text" : "1.65",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -982,7 +982,7 @@
 					"patching_rect" : [ 613.0, 1023.0, 68.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 267.0, 621.0, 55.0, 29.0 ],
-					"text" : "0.5",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1021,7 +1021,7 @@
 					"patching_rect" : [ 464.0, 1033.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 700.0, 621.0, 65.0, 29.0 ],
-					"text" : "1",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1048,7 +1048,7 @@
 					"patching_rect" : [ 390.0, 1033.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 621.0, 65.0, 29.0 ],
-					"text" : "1",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1148,7 +1148,7 @@
 					"patching_rect" : [ 651.0, 928.0, 203.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 693.0, 622.0, 57.0, 27.0 ],
-					"text" : "OM",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1260,7 +1260,7 @@
 					"patching_rect" : [ 629.0, 908.0, 203.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 622.0, 57.0, 27.0 ],
-					"text" : "OM",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1332,7 +1332,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 693.0, 594.0 ],
 					"rendermode" : 0,
-					"url" : "http://localhost:5173/Cielo/"
+					"url" : "http://localhost:7776/"
 				}
 
 			}
@@ -1949,7 +1949,7 @@
 
 			}
  ],
-		"originid" : "pat-6122",
+		"originid" : "pat-12236",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}

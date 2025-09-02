@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 TARGET_DIR="Cielo_ver0.1.1"
 
 # Porta iniziale
-PORT=8000
+PORT=7776
 
 # Trova la prima porta libera
 while lsof -i :$PORT >/dev/null 2>&1; do
@@ -33,7 +33,7 @@ cd ..
 trap "echo '🛑 Arresto del server sulla porta $PORT...'; kill $SERVER_PID 2>/dev/null" EXIT
 
 # Apri il browser
-open "http://localhost:$PORT"
+# open "http://localhost:$PORT"
 
 # Apri il file Max
 echo "🎧 Apertura di main_ondacielo.maxpat..."
