@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 926.0, 614.0, 437.0, 279.0 ],
+		"rect" : [ 346.0, 153.0, 887.0, 634.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -56,7 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1805.0, 665.0, 150.0, 100.0 ],
-					"presentation_linecount" : 7,
 					"text" : "crea un dizionario con tutte le informazioni utili per il riverbero. Quindi posizioni clappatore (IR), posizioni microfoni quindi oggetti virtuali, nome del modello 3D associato."
 				}
 
@@ -95,29 +94,6 @@
 						"autowatch" : 1
 					}
 
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-90",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1266.0, 586.0, 150.0, 47.0 ],
-					"text" : "ok questo deve essere controllato dalla posizione in termini di coordinate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-79",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1322.0, 565.0, 112.0, 84.0 ]
 				}
 
 			}
@@ -333,7 +309,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 310.0, 266.0, 50.0, 49.0 ],
-					"text" : "0. 1 0 2. 100. 1"
+					"text" : "0. 1 0 -12. 100. 0"
 				}
 
 			}
@@ -368,10 +344,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 632.0, 1043.0, 126.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "mc.out~ 1 @chans 33"
 				}
 
@@ -1250,7 +1222,7 @@
 
 							}
  ],
-						"originid" : "pat-47858"
+						"originid" : "pat-84541"
 					}
 ,
 					"patching_rect" : [ 361.0, 168.0, 44.0, 22.0 ],
@@ -1352,20 +1324,20 @@
  ],
 							"lines" : [ 								{
 									"patchline" : 									{
-										"source" : [ "obj-5", 0 ],
-										"destination" : [ "obj-4", 0 ]
-									}
-
-								}
-, 								{
-									"patchline" : 									{
 										"source" : [ "obj-1", 0 ],
 										"destination" : [ "obj-5", 0 ]
 									}
 
 								}
+, 								{
+									"patchline" : 									{
+										"source" : [ "obj-5", 0 ],
+										"destination" : [ "obj-4", 0 ]
+									}
+
+								}
  ],
-							"originid" : "pat-47860"
+							"originid" : "pat-84543"
 						}
 
 					}
@@ -1377,7 +1349,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 910.0, 583.0, 119.0, 22.0 ],
 					"text" : "mc.gen~ @chans 24",
-					"wrapper_uniquekey" : "u060022963"
+					"wrapper_uniquekey" : "u727017158"
 				}
 
 			}
@@ -1640,7 +1612,7 @@
 
 							}
  ],
-						"originid" : "pat-47862"
+						"originid" : "pat-84545"
 					}
 ,
 					"patching_rect" : [ 70.0, 261.0, 74.0, 22.0 ],
@@ -2194,7 +2166,7 @@
 
 							}
  ],
-						"originid" : "pat-48106"
+						"originid" : "pat-84789"
 					}
 ,
 					"patching_rect" : [ 653.0, 28.0, 111.0, 22.0 ],
@@ -2500,7 +2472,7 @@
 
 							}
  ],
-						"originid" : "pat-48108"
+						"originid" : "pat-84791"
 					}
 ,
 					"patching_rect" : [ 653.0, 72.0, 97.0, 22.0 ],
@@ -3113,7 +3085,7 @@
 
 							}
  ],
-						"originid" : "pat-48110"
+						"originid" : "pat-84793"
 					}
 ,
 					"patching_rect" : [ 192.0, 72.0, 71.0, 22.0 ],
@@ -3170,6 +3142,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 1040.400000000000091, 72.0, 54.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "mc.in~ 1"
 				}
 
@@ -3484,15 +3460,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"midpoints" : [ 1253.5, 982.30078125, 712.5, 982.30078125 ],
-					"order" : 1,
-					"source" : [ "obj-283", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
-					"order" : 0,
 					"source" : [ "obj-283", 0 ]
 				}
 
@@ -3976,7 +3943,7 @@
 
 			}
  ],
-		"originid" : "pat-47856"
+		"originid" : "pat-84539"
 	}
 
 }

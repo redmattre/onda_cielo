@@ -2,25 +2,107 @@
 	"Preset_Name" : "Querini_LargeRoom",
 	"Model" : "queriniroom.glb",
 	"IRpositions" : 	{
-		"pos1" : [ 0.0, 0.0 ],
-		"pos2" : [ -3.25, 4.85 ],
-		"pos3" : [ 0.0, 4.85 ],
-		"pos4" : [ 3.25, 4.85 ],
-		"pos5" : [ -3.25, 0.0 ],
-		"pos6" : [ -3.25, -4.85 ],
-		"pos7" : [ 0.0, -4.85 ],
-		"pos8" : [ 3.25, -4.85 ],
-		"pos9" : [ 3.25, 0.0 ]
+		"pos1" : [ 0.0, 0.0, 1.2 ],
+		"pos2" : [ -3.25, 4.85, 1.2 ],
+		"pos3" : [ 0.0, 4.85, 1.2 ],
+		"pos4" : [ 3.25, 4.85, 1.2 ],
+		"pos5" : [ -3.25, 0.0, 1.2 ],
+		"pos6" : [ -3.25, -4.85, 1.2 ],
+		"pos7" : [ 0.0, -4.85, 1.2 ],
+		"pos8" : [ 3.25, -4.85, 1.2 ],
+		"pos9" : [ 3.25, 0.0, 1.2 ]
 	}
 ,
 	"MicPositions" : 	{
-		"pos1" : [ 0.0, 4.66 ],
-		"pos2" : [ 3.35, 0.0 ],
-		"pos3" : [ 0.0, -4.66 ],
-		"pos4" : [ -3.35, 0.0 ],
-		"pos5" : [ 0.0, 1.78 ],
-		"pos6" : [ 0.0, -1.78 ]
+		"pos1" : [ 0.0, 4.66, 1.2 ],
+		"pos2" : [ 3.35, 0.0, 1.2 ],
+		"pos3" : [ 0.0, -4.66, 1.2 ],
+		"pos4" : [ -3.35, 0.0, 1.2 ],
+		"pos5" : [ 0.0, 1.78, 1.2 ],
+		"pos6" : [ 0.0, -1.78, 1.2 ]
 	}
 ,
-	"IRsFolder" : "path"
+	"IRfiles" : 	{
+		"pos1" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_1_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_1_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_1_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_1_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_1_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_1_M6.wav"
+		}
+,
+		"pos2" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_2_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_2_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_2_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_2_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_2_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_2_M6.wav"
+		}
+,
+		"pos3" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_3_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_3_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_3_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_3_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_3_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_3_M6.wav"
+		}
+,
+		"pos4" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_4_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_4_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_4_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_4_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_4_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_4_M6.wav"
+		}
+,
+		"pos5" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_5_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_5_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_5_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_5_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_5_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_5_M6.wav"
+		}
+,
+		"pos6" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_6_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_6_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_6_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_6_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_6_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_6_M6.wav"
+		}
+,
+		"pos7" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_7_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_7_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_7_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_7_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_7_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_7_M6.wav"
+		}
+,
+		"pos8" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_8_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_8_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_8_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_8_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_8_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_8_M6.wav"
+		}
+,
+		"pos9" : 		{
+			"mic1" : "Querini_LargeRoom_audio/pos_9_M1.wav",
+			"mic2" : "Querini_LargeRoom_audio/pos_9_M2.wav",
+			"mic3" : "Querini_LargeRoom_audio/pos_9_M3.wav",
+			"mic4" : "Querini_LargeRoom_audio/pos_9_M4.wav",
+			"mic5" : "Querini_LargeRoom_audio/pos_9_M5.wav",
+			"mic6" : "Querini_LargeRoom_audio/pos_9_M6.wav"
+		}
+
+	}
 }
