@@ -82,6 +82,17 @@ function load_asp_dict() {
         
         if (preset_name && ir_files) {
             load_positions();
+            
+            // Invia il nome della cartella quando viene caricato un nuovo dizionario
+            try {
+                var folder_name = dict_obj.get("IRsFolder");
+                if (folder_name) {
+                    outlet(1, "folder", folder_name);
+                }
+            } catch (e) {
+                // Se non c'è IRsFolder, ignora
+            }
+            
             // post("Loaded ASP spatial view: " + preset_name + "\n");
         } else {
             post("Warning: Dictionary doesn't seem to be a valid ASP\n");

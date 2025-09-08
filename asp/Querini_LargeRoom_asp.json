@@ -22,86 +22,87 @@
 		"pos6" : [ 0.0, -1.78, 1.2 ]
 	}
 ,
+	"IRsFolder" : "Querini_LargeRoom_audio",
 	"IRfiles" : 	{
 		"pos1" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_1_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_1_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_1_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_1_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_1_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_1_M6.wav"
+			"mic1" : "pos_1_M1.wav",
+			"mic2" : "pos_1_M2.wav",
+			"mic3" : "pos_1_M3.wav",
+			"mic4" : "pos_1_M4.wav",
+			"mic5" : "pos_1_M5.wav",
+			"mic6" : "pos_1_M6.wav"
 		}
 ,
 		"pos2" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_2_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_2_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_2_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_2_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_2_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_2_M6.wav"
+			"mic1" : "pos_2_M1.wav",
+			"mic2" : "pos_2_M2.wav",
+			"mic3" : "pos_2_M3.wav",
+			"mic4" : "pos_2_M4.wav",
+			"mic5" : "pos_2_M5.wav",
+			"mic6" : "pos_2_M6.wav"
 		}
 ,
 		"pos3" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_3_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_3_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_3_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_3_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_3_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_3_M6.wav"
+			"mic1" : "pos_3_M1.wav",
+			"mic2" : "pos_3_M2.wav",
+			"mic3" : "pos_3_M3.wav",
+			"mic4" : "pos_3_M4.wav",
+			"mic5" : "pos_3_M5.wav",
+			"mic6" : "pos_3_M6.wav"
 		}
 ,
 		"pos4" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_4_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_4_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_4_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_4_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_4_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_4_M6.wav"
+			"mic1" : "pos_4_M1.wav",
+			"mic2" : "pos_4_M2.wav",
+			"mic3" : "pos_4_M3.wav",
+			"mic4" : "pos_4_M4.wav",
+			"mic5" : "pos_4_M5.wav",
+			"mic6" : "pos_4_M6.wav"
 		}
 ,
 		"pos5" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_5_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_5_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_5_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_5_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_5_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_5_M6.wav"
+			"mic1" : "pos_5_M1.wav",
+			"mic2" : "pos_5_M2.wav",
+			"mic3" : "pos_5_M3.wav",
+			"mic4" : "pos_5_M4.wav",
+			"mic5" : "pos_5_M5.wav",
+			"mic6" : "pos_5_M6.wav"
 		}
 ,
 		"pos6" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_6_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_6_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_6_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_6_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_6_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_6_M6.wav"
+			"mic1" : "pos_6_M1.wav",
+			"mic2" : "pos_6_M2.wav",
+			"mic3" : "pos_6_M3.wav",
+			"mic4" : "pos_6_M4.wav",
+			"mic5" : "pos_6_M5.wav",
+			"mic6" : "pos_6_M6.wav"
 		}
 ,
 		"pos7" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_7_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_7_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_7_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_7_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_7_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_7_M6.wav"
+			"mic1" : "pos_7_M1.wav",
+			"mic2" : "pos_7_M2.wav",
+			"mic3" : "pos_7_M3.wav",
+			"mic4" : "pos_7_M4.wav",
+			"mic5" : "pos_7_M5.wav",
+			"mic6" : "pos_7_M6.wav"
 		}
 ,
 		"pos8" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_8_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_8_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_8_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_8_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_8_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_8_M6.wav"
+			"mic1" : "pos_8_M1.wav",
+			"mic2" : "pos_8_M2.wav",
+			"mic3" : "pos_8_M3.wav",
+			"mic4" : "pos_8_M4.wav",
+			"mic5" : "pos_8_M5.wav",
+			"mic6" : "pos_8_M6.wav"
 		}
 ,
 		"pos9" : 		{
-			"mic1" : "Querini_LargeRoom_audio/pos_9_M1.wav",
-			"mic2" : "Querini_LargeRoom_audio/pos_9_M2.wav",
-			"mic3" : "Querini_LargeRoom_audio/pos_9_M3.wav",
-			"mic4" : "Querini_LargeRoom_audio/pos_9_M4.wav",
-			"mic5" : "Querini_LargeRoom_audio/pos_9_M5.wav",
-			"mic6" : "Querini_LargeRoom_audio/pos_9_M6.wav"
+			"mic1" : "pos_9_M1.wav",
+			"mic2" : "pos_9_M2.wav",
+			"mic3" : "pos_9_M3.wav",
+			"mic4" : "pos_9_M4.wav",
+			"mic5" : "pos_9_M5.wav",
+			"mic6" : "pos_9_M6.wav"
 		}
 
 	}
