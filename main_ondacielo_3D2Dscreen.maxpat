@@ -15,6 +15,29 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2583.0, 884.0, 48.0, 22.0 ],
+					"text" : "del 500"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2583.0, 923.0, 107.0, 22.0 ],
+					"text" : "s ---loadConvolver"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-201",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -479,7 +502,7 @@
 				"box" : 				{
 					"attr_bpm" : 122.0,
 					"bgcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 0.0 ],
-					"buffername" : "IR.37",
+					"buffername" : "IR.8",
 					"grid" : 184.0,
 					"gridcolor" : [ 0.858823529411765, 0.858823529411765, 0.858823529411765, 1.0 ],
 					"id" : "obj-331",
@@ -508,7 +531,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2185.0, 639.0, 50.0, 62.0 ],
-					"text" : "key IRfiles::pos7::mic1"
+					"text" : "key IRfiles::pos2::mic2"
 				}
 
 			}
@@ -516,10 +539,13 @@
 				"box" : 				{
 					"activebgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"activebgoncolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"activetextcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"activetextoncolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
 					"focusbordercolor" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 0.0 ],
 					"fontsize" : 11.0,
 					"id" : "obj-182",
+					"labeltextcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"maxclass" : "live.text",
 					"mode" : 0,
 					"numinlets" : 1,
@@ -696,7 +722,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.0, 738.0, 55.0, 35.0 ],
+					"patching_rect" : [ 507.0, 738.0, 59.0, 35.0 ],
 					"text" : "1 0 0 1.2 270 0"
 				}
 
@@ -1435,7 +1461,7 @@
 					"patching_rect" : [ 935.0, 1023.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 635.0, 621.0, 58.0, 29.0 ],
-					"text" : "0.",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1462,7 +1488,7 @@
 					"patching_rect" : [ 867.0, 1023.0, 68.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 555.0, 621.0, 55.0, 29.0 ],
-					"text" : "270.",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1511,7 +1537,7 @@
 					"patching_rect" : [ 753.0, 1023.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1110.0, 621.0, 52.0, 29.0 ],
-					"text" : "1.2",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1538,7 +1564,7 @@
 					"patching_rect" : [ 683.0, 1023.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1025.0, 621.0, 52.0, 29.0 ],
-					"text" : "0.",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1565,7 +1591,7 @@
 					"patching_rect" : [ 613.0, 1054.0, 68.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 944.0, 621.0, 55.0, 29.0 ],
-					"text" : "0.",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1592,7 +1618,7 @@
 					"patching_rect" : [ 753.0, 1054.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 621.0, 52.0, 29.0 ],
-					"text" : "1.2",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1619,7 +1645,7 @@
 					"patching_rect" : [ 683.0, 1054.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 335.0, 621.0, 52.0, 29.0 ],
-					"text" : "0.",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1646,7 +1672,7 @@
 					"patching_rect" : [ 613.0, 1023.0, 68.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 267.0, 621.0, 55.0, 29.0 ],
-					"text" : "0.",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1685,7 +1711,7 @@
 					"patching_rect" : [ 464.0, 1033.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 700.0, 621.0, 65.0, 29.0 ],
-					"text" : "1",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1712,7 +1738,7 @@
 					"patching_rect" : [ 390.0, 1033.0, 65.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 621.0, 65.0, 29.0 ],
-					"text" : "1",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -1812,7 +1838,7 @@
 					"patching_rect" : [ 651.0, 928.0, 203.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 693.0, 622.0, 57.0, 27.0 ],
-					"text" : "OM",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1924,7 +1950,7 @@
 					"patching_rect" : [ 629.0, 908.0, 203.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 622.0, 57.0, 27.0 ],
-					"text" : "OM",
+					"text" : "---",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2410,6 +2436,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-142", 0 ],
 					"midpoints" : [ 2502.5, 871.0, 2593.25, 871.0, 2593.25, 792.0, 2549.5, 792.0 ],
+					"order" : 1,
+					"source" : [ "obj-155", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"order" : 0,
 					"source" : [ "obj-155", 0 ]
 				}
 
@@ -2715,6 +2750,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-67", 0 ]
 				}
@@ -2936,7 +2978,7 @@
 
 			}
  ],
-		"originid" : "pat-12236"
+		"originid" : "pat-18562"
 	}
 
 }
