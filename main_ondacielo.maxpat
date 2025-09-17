@@ -4476,7 +4476,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
+					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-140", 0 ]
 				}
 
