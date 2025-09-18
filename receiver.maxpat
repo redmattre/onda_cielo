@@ -10,9 +10,158 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 96.0, 114.0, 815.0, 685.0 ],
+		"rect" : [ 518.0, -893.0, 815.0, 685.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 919.099999999999909, 674.400000000000091 ],
+						"gridsize" : [ 15.0, 15.0 ],
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 57.0, 189.0, 54.0, 22.0 ],
+									"text" : "pack f f f"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 74.0, 144.0, 29.5, 22.0 ],
+									"text" : "+ 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "float", "float", "float" ],
+									"patching_rect" : [ 50.0, 100.0, 67.0, 22.0 ],
+									"text" : "unpack f f f"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-28",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-30",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 57.0, 271.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-14", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 2 ],
+									"source" : [ "obj-14", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 1 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+ ],
+						"originid" : "pat-7048"
+					}
+,
+					"patching_rect" : [ 106.0, 303.0, 44.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"globalpatchername" : ""
+					}
+,
+					"text" : "p error"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 155.0, 404.0, 150.0, 141.0 ],
+					"text" : "c'è un problema con moveSphere dentro al codice web.\n\nper qualche ragione la y è spostata di 1.\n\nLo correggo qua per non rifare la build ma va corretto poi."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"linecount" : 3,
@@ -20,8 +169,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.0, 179.0, 50.0, 49.0 ],
-					"text" : "1 0.45 0.522 0.769"
+					"patching_rect" : [ 227.0, 179.0, 48.0, 49.0 ],
+					"text" : "1 0.425 0. 0.65"
 				}
 
 			}
@@ -68,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 305.0, 37.0, 22.0 ],
+					"patching_rect" : [ 74.0, 336.0, 37.0, 22.0 ],
 					"text" : "join 2"
 				}
 
@@ -104,7 +253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 345.0, 124.0, 22.0 ],
+					"patching_rect" : [ 74.0, 376.0, 124.0, 22.0 ],
 					"text" : "prepend moveSphere"
 				}
 
@@ -621,7 +770,7 @@
 
 							}
  ],
-						"originid" : "pat-10"
+						"originid" : "pat-914"
 					}
 ,
 					"patching_rect" : [ 74.0, 57.0, 70.0, 22.0 ],
@@ -1025,6 +1174,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-94", 1 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 1 ],
 					"source" : [ "obj-33", 0 ]
 				}
@@ -1072,7 +1228,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-94", 1 ],
+					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-64", 0 ]
 				}
 
@@ -1372,7 +1528,7 @@
 
 			}
  ],
-		"originid" : "pat-8"
+		"originid" : "pat-912"
 	}
 
 }
