@@ -1,0 +1,40 @@
+{
+	"Preset_Name" : "Querini_LargeRoom",
+	"Model" : "queriniroom.glb",
+	"IRpositions" : 	{
+		"pos1" : [ 0.0, 0.0, 1.2 ],
+		"pos2" : [ -3.25, 4.85, 1.2 ],
+		"pos3" : [ 3.25, -4.85, 1.2 ]
+	}
+,
+	"MicPositions" : 	{
+		"pos1" : [ 0.0, 4.66, 1.2 ],
+		"pos2" : [ 3.35, 0.0, 1.2 ],
+		"pos3" : [ 0.0, -4.66, 1.2 ],
+		"pos4" : [ -3.35, 0.0, 1.2 ]
+	}
+,
+	"IRsFolder" : "Querini_LargeRoom_audio",
+	"IRfiles" : 	{
+		"pos1" : 		{
+			"mic1" : "pos_1_M1.wav",
+			"mic2" : "pos_1_M2.wav",
+			"mic3" : "pos_1_M3.wav",
+			"mic4" : "pos_1_M4.wav"
+		}
+,
+		"pos2" : 		{
+			"mic1" : "pos_2_M1.wav",
+			"mic2" : "pos_2_M2.wav",
+			"mic3" : "pos_2_M3.wav",
+			"mic4" : "pos_2_M4.wav"
+		}
+,
+		"pos3" : 		{
+			"mic1" : "pos_8_M1.wav",
+			"mic2" : "pos_8_M2.wav",
+			"mic3" : "pos_8_M3.wav",
+			"mic4" : "pos_8_M4.wav"
+		}
+	}
+}

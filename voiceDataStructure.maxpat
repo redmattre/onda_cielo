@@ -15,6 +15,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 946.0, 89.0, 133.0, 22.0 ],
+					"text" : "qmetro 1000 @active 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -33,7 +45,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 299.0, 230.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
@@ -550,7 +562,7 @@
 
 							}
  ],
-						"originid" : "pat-16"
+						"originid" : "pat-636"
 					}
 ,
 					"patching_rect" : [ 580.0, 404.0, 73.0, 22.0 ],
@@ -727,7 +739,7 @@
 
 							}
  ],
-						"originid" : "pat-18"
+						"originid" : "pat-638"
 					}
 ,
 					"patching_rect" : [ 447.5, 404.0, 73.0, 22.0 ],
@@ -2839,6 +2851,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-168", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
 					"source" : [ "obj-150", 0 ]
 				}
@@ -3770,7 +3789,7 @@
 
 			}
  ],
-		"originid" : "pat-14"
+		"originid" : "pat-634"
 	}
 
 }

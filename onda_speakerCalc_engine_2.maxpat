@@ -10,9 +10,36 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 111.0, 115.0, 1021.0, 667.0 ],
+		"rect" : [ 380.0, 1217.0, 1021.0, 667.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-83",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 284.0, 694.0, 136.0, 200.0 ],
+					"text" : "questo è un workaround per il fatto che la compensazione non avviene a velocità audio, infatti se hai la compensazione attiva ma ti muovo troppo velocemente si sente uno spike di volume, questo evita che sia superiore a 1, ma si sente ovviamente lo stesso."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 322.0, 642.0, 60.0, 22.0 ],
+					"text" : "clip~ 0. 1."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "newobj",
@@ -55,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 542.5, 556.0, 48.0, 22.0 ],
+					"patching_rect" : [ 542.5, 521.0, 48.0, 22.0 ],
 					"text" : "line~ 1."
 				}
 
@@ -251,7 +278,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1109.0, 123.0, 50.0, 22.0 ],
-					"text" : "100."
+					"text" : "0."
 				}
 
 			}
@@ -840,7 +867,7 @@
 
 							}
  ],
-						"originid" : "pat-13548"
+						"originid" : "pat-650"
 					}
 ,
 					"patching_rect" : [ 1439.0, 76.0, 71.0, 22.0 ],
@@ -932,6 +959,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 456.0, 179.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 6"
 				}
 
@@ -943,6 +974,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 282.0, 338.0, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -1356,7 +1391,7 @@
 
 							}
  ],
-						"originid" : "pat-13550"
+						"originid" : "pat-652"
 					}
 ,
 					"patching_rect" : [ 57.0, 184.0, 75.0, 22.0 ],
@@ -1647,7 +1682,8 @@
 
 							}
  ],
-						"originid" : "pat-7962"
+						"originid" : "pat-6744",
+						"autosave" : 0
 					}
 ,
 					"patching_rect" : [ 57.0, 709.0, 36.0, 22.0 ],
@@ -1796,10 +1832,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1038.0, 211.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 4"
 				}
 
@@ -1886,7 +1918,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 191.0, 477.0, 30.0, 49.0 ],
-									"text" : "4.30876"
+									"text" : "4.084089"
 								}
 
 							}
@@ -2089,7 +2121,7 @@
 
 											}
  ],
-										"originid" : "pat-13554"
+										"originid" : "pat-658"
 									}
 ,
 									"patching_rect" : [ 150.0, 187.0, 56.0, 22.0 ],
@@ -2236,13 +2268,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 187.0, 59.0, 35.0 ],
-									"text" : "0.536 0.744 1.2"
+									"text" : "2.696 -2.192 1.2"
 								}
 
 							}
@@ -2554,7 +2586,7 @@
 
 							}
  ],
-						"originid" : "pat-13552"
+						"originid" : "pat-656"
 					}
 ,
 					"patching_rect" : [ 783.0, 95.0, 105.0, 22.0 ],
@@ -2585,10 +2617,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 993.0, 32.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 3"
 				}
 
@@ -2658,10 +2686,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 57.0, 751.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -2674,6 +2698,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 57.0, 32.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in~ 5"
 				}
 
@@ -2686,10 +2714,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 869.0, 32.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -2702,6 +2726,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 783.0, 32.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -2793,14 +2821,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"order" : 0,
-					"source" : [ "obj-148", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 1 ],
-					"order" : 2,
 					"source" : [ "obj-148", 0 ]
 				}
 
@@ -3367,7 +3387,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 1 ],
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"order" : 1,
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
+					"order" : 0,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -3410,7 +3446,7 @@
 
 			}
  ],
-		"originid" : "pat-13546"
+		"originid" : "pat-648"
 	}
 
 }
