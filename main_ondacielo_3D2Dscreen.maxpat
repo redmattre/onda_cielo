@@ -10,10 +10,58 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 123.0, 1021.0, 721.0 ],
+		"rect" : [ 81.0, 123.0, 1016.0, 721.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 863.0, 63.0, 80.0, 22.0 ],
+					"text" : "prepend read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 863.0, 37.0, 216.0, 22.0 ],
+					"text" : "combine http://localhost: i / @triggers 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 961.5, 5.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 863.0, 5.0, 75.0, 22.0 ],
+					"text" : "r ---localPort"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-62",
 					"maxclass" : "newobj",
@@ -1959,7 +2007,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2757,6 +2805,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-84", 1 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-67", 0 ]
 				}
@@ -2909,6 +2964,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-84", 1 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-82", 0 ]
 				}
@@ -2918,6 +2980,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-84", 0 ]
 				}
 
 			}
@@ -2977,8 +3046,40 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-99", 0 ]
+				}
+
+			}
  ],
-		"originid" : "pat-18562"
+		"originid" : "pat-6790",
+		"parameters" : 		{
+			"obj-126" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-182" : [ "live.text[9]", "live.text[2]", 0 ],
+			"obj-89" : [ "live.text", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "asp_spatial_menu.js",
+				"bootpath" : "~/Desktop/Temporaneo/onda_rebuild/onda_rebuild",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

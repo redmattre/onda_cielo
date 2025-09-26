@@ -36,8 +36,8 @@ trap "echo '🛑 Arresto del server sulla porta $PORT...'; kill $SERVER_PID 2>/d
 # open "http://localhost:$PORT"
 
 # Apri il file Max
-echo "🎧 Apertura di main_ondacielo.maxpat..."
-open -a "Max" main_ondacielo.maxpat
+# echo "🎧 Apertura di main_ondacielo.maxpat..."
+# open -a "Max" main_ondacielo.maxpat
 
 # Attendi la chiusura di Max o termina con Ctrl+C
 echo "⏳ Server attivo. Premi Ctrl+C per uscire."
