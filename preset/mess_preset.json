@@ -1,0 +1,387 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u277057365",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"spaceFunction" : [ 1024.0, 0.0, 27.0, 0.0, 0.0, 0, 0.0, 195.927797833935017, 19.361842105263165, 0, 0.55, 850.252707581227469, 15.809210526315791, 0, -0.455, 1024.0, 26.999999999999986, 0, -0.7, "curve" ],
+					"maxReduction" : [ -27.212598425196852 ],
+					"maxDistance" : [ 11.023622047244091 ],
+					"mixInfos" : [ 						{
+							"Omnifonte_1" : 							{
+								"delaycalc" : 0,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_2" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 61,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 57,
+								"gittata" : 14,
+								"diffusione" : 34,
+								"revsend" : -35,
+								"drypercentage" : 63,
+								"reverb" : 1
+							}
+,
+							"Omnifonte_3" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_4" : 							{
+								"delaycalc" : 0,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 52,
+								"gittata" : 8,
+								"diffusione" : 40,
+								"revsend" : -56,
+								"drypercentage" : 65,
+								"reverb" : 1
+							}
+,
+							"Omnifonte_5" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 0,
+								"delaysmooth" : 100,
+								"gain" : -35,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 31,
+								"gittata" : 6,
+								"diffusione" : 11,
+								"revsend" : -38,
+								"drypercentage" : 100,
+								"reverb" : 1
+							}
+,
+							"Omnifonte_6" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 0,
+								"delaysmooth" : 60,
+								"gain" : -16,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 82,
+								"gittata" : 7,
+								"diffusione" : 0,
+								"revsend" : -41,
+								"drypercentage" : 81,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_7" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_8" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_9" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_10" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_11" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_12" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_13" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_14" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_15" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_16" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_17" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_18" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_19" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_20" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_21" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_22" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_23" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+,
+							"Omnifonte_24" : 							{
+								"delaycalc" : 1,
+								"delaymode" : 1,
+								"delaysmooth" : 100,
+								"gain" : 0,
+								"channelstate" : 1,
+								"solo" : 0,
+								"prospettiva" : 100,
+								"gittata" : 10,
+								"diffusione" : 0,
+								"revsend" : -12,
+								"drypercentage" : 100,
+								"reverb" : 0
+							}
+
+						}
+ ],
+					"main_ondacielo_3D2Dscreen::AcousticSpacePresetMenu" : [ "Querini_LargeRoom_eco.json" ],
+					"routing" : [ 0, 0, 1.0, 1, 1, 1.0, 1, 9, 1.0, 2, 2, 1.0, 2, 9, 1.0, 3, 3, 1.0, 3, 8, 1.0, 4, 4, 1.0, 4, 7, 1.0, 4, 17, 1.0, 5, 5, 1.0, 5, 7, 1.0, 5, 17, 1.0, 6, 6, 1.0, 6, 17, 1.0, 7, 6, 1.0, 7, 7, 1.0, 7, 17, 1.0, 8, 6, 1.0, 8, 8, 1.0, 8, 17, 1.0, 8, 18, 1.0, 9, 6, 1.0, 9, 9, 1.0, 9, 18, 1.0, 10, 6, 1.0, 10, 7, 1.0, 10, 10, 1.0, 10, 18, 1.0, 11, 7, 1.0, 11, 8, 1.0, 11, 11, 1.0, 11, 18, 1.0, 12, 8, 1.0, 12, 9, 1.0, 12, 12, 1.0, 12, 18, 1.0, 12, 19, 1.0, 13, 10, 1.0, 13, 11, 1.0, 13, 12, 1.0, 13, 13, 1.0, 13, 19, 1.0, 14, 12, 1.0, 14, 13, 1.0, 14, 14, 1.0, 14, 15, 1.0, 14, 19, 1.0, 15, 15, 1.0, 15, 19, 1.0, 16, 15, 1.0, 16, 16, 1.0, 16, 19, 1.0, 17, 14, 1.0, 17, 17, 1.0, 17, 19, 1.0, 18, 14, 1.0, 18, 18, 1.0, 18, 19, 1.0, 19, 11, 1.0, 19, 12, 1.0, 19, 13, 1.0, 19, 18, 1.0, 19, 19, 1.0, 20, 9, 1.0, 20, 10, 1.0, 20, 11, 1.0, 20, 20, 1.0, 21, 21, 1.0, 22, 22, 1.0, 23, 23, 1.0 ],
+					"masterConv" : [ -29.149606299212564 ],
+					"masterVol" : [ -21.259842519685016 ],
+					"masterLFE" : [ -22.346456692913385 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
