@@ -4,7 +4,9 @@
 	"IRpositions" : 	{
 		"pos1" : [ 0.0, 0.0, 1.2 ],
 		"pos2" : [ -3.25, 4.85, 1.2 ],
-		"pos3" : [ 3.25, -4.85, 1.2 ]
+		"pos3" : [ 3.25, 4.85, 1.2 ],
+		"pos4" : [ -3.25, -4.85, 1.2 ],
+		"pos5" : [ 3.25, -4.85, 1.2 ]
 	}
 ,
 	"MicPositions" : 	{
@@ -31,6 +33,20 @@
 		}
 ,
 		"pos3" : 		{
+			"mic1" : "pos_4_M1.wav",
+			"mic2" : "pos_4_M2.wav",
+			"mic3" : "pos_4_M3.wav",
+			"mic4" : "pos_4_M4.wav"
+		}
+,
+		"pos4" : 		{
+			"mic1" : "pos_6_M1.wav",
+			"mic2" : "pos_6_M2.wav",
+			"mic3" : "pos_6_M3.wav",
+			"mic4" : "pos_6_M4.wav"
+		}
+,
+		"pos5" : 		{
 			"mic1" : "pos_8_M1.wav",
 			"mic2" : "pos_8_M2.wav",
 			"mic3" : "pos_8_M3.wav",
